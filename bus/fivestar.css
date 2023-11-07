@@ -148,6 +148,7 @@ footer span a:hover {
   margin: 10px 0;
 }
 .contact .contact-content .row {
+  margin-left: 25%;
   display: flex;
   height: 65px;
   align-items: center;
@@ -334,4 +335,11 @@ footer span a:hover {
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
+}
+
+.contact_us {
+  margin-left: 25%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
