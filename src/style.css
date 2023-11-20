@@ -36,15 +36,12 @@ section {
 }
 .about,
 .services,
-.skills,
-.teams,
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -265,17 +262,16 @@ section .title::after {
   background: none;
 }
 
-.services,
-.teams {
+.services {
   color: #fff;
   background: #111;
 }
 .services .title::before,
-.teams .title::before {
+.title::before {
   background: #fff;
 }
 .services .title::after,
-.teams .title::after {
+.title::after {
   background: #111;
   content: "WHAT WE PROVIDE";
 }
@@ -513,7 +509,7 @@ footer span a:hover {
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
-  .skills .skills-content .column,
+  .column,
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
